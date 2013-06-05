@@ -1,0 +1,11 @@
+/* G1 comments */
+.glbComentarios,  /* GLOBO.COM */
+ #articleComments  /* FOLHA ONLINE */
+ {
+	display: none !important;
+}
+
+#articleComments {
+	color: Green;	
+}
+

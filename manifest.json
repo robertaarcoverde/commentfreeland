@@ -1,0 +1,17 @@
+{
+  "manifest_version": 2,
+
+  "name": "Comment-free Land",
+  "description": "Esta extensao esconde os boxes de comentarios em sites de noticias brasileiros, evitando que sejam lidos sem querer.",
+  "version": "1.0",
+  "permissions": [
+    "tabs", "http://*/*"
+  ],
+  "background": {
+	"scripts": ["activate.js"]
+  },
+"browser_action": {
+    "default_icon": "shutup.gif"
+}
+
+}
